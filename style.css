@@ -1,0 +1,156 @@
+html{
+  background: white;
+}
+
+*{
+  font-size: 22px;
+  color: #ddd;
+  font-family: 'Voces', cursive;
+}
+
+
+h3, p {
+  padding-bottom: 30px;
+
+}
+
+hr {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    background-color: #444 !important;
+    color: dimgrey !important;
+    border: solid 1px #444 !important;
+    height: 0px !important;
+    width: 90% !important;
+}
+
+.text-main-title{
+  /*font-family: 'Alfa Slab One', cursive;*/
+  font-family: 'Bungee Shade', cursive;
+}
+
+.text-blue{
+  color:#0a4d87;
+}
+.text-blue-dark{
+  color:#042542;
+}
+.text-white{
+  color:white;
+}
+.text-black{
+  color:black;
+}
+
+
+.padded{
+  padding: 30px;
+}
+
+.banner{
+  background-size: cover !important;
+  background-position: center;
+}
+
+.vh-centered h1{
+  font-size: 3.2em;
+  margin: 0px;
+}
+
+.vh-centered h2{
+  font-size: 1.0em;
+  margin: 0px;
+
+}
+
+.vh-centered h3{
+  font-size: 1.0em;
+  margin: 0px;
+
+}
+
+.vh-centered{
+  width: 100%;
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centered{
+  width: 100%;
+  padding: 0px 0px;
+  /*height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.bg-gray{
+  background:#333;
+}
+
+.bg-gray-light{
+  background: #ccc;
+}
+
+#btn-action{
+  box-shadow: -5px 5px 8px 0px #042542;
+}
+
+
+/*formspree*/
+#banner-form{
+  padding: 100px 25px;
+}
+
+.form-container{
+  border-style: dashed;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field{
+  font-size: 0.8em;
+  color: black;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  opacity:0.9;
+  box-shadow: -5px 5px 8px 0px #042542;
+}
+
+#btn-submit-contact {
+  width: 150px;
+
+}
+
+/*---------------footer---------------*/
+
+.footer{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h4{
+  color: white;
+  margin:0px 15px;
+  padding:0px;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+.footer i{
+  color:white;
+  font-size: 2em
+}
